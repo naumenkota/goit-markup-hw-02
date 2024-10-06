@@ -87,7 +87,9 @@ ul { list-style-type: none;}
 
     .team-section {background-color: #F4F4FD;}
 
-    .team-section-title {font-weight: 700;
+    .team-section-title {
+        text-transform: capitalize;
+        font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
@@ -97,13 +99,15 @@ ul { list-style-type: none;}
 
  .team-section-item {background-color: #FFFFFF;}
 
-    .team-section-member-name {font-weight: 500;
+    .team-section-member-name {
+        
+        font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-    text-transform: capitalize;}
+    }
 
         .team-section-member-role {
             font-size: 16px;
@@ -113,7 +117,7 @@ ul { list-style-type: none;}
             color: #434455;}
 
 .portfolio-section-title {
-    
+
     text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
