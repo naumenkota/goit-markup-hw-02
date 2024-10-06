@@ -59,6 +59,7 @@ ul { list-style-type: none;}
     color: #fff;}
 
     .hero-section-button {
+        font-family: inherit
         font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
@@ -87,6 +88,7 @@ ul { list-style-type: none;}
         color: #2e2f42;
     }
 
+ 
     .team-section-member-name {font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
